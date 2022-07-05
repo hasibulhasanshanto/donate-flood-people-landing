@@ -194,7 +194,7 @@ body {
 =============================*/
 #newsletter-area {
     padding-top: 70px;
-    padding-bottom: 40px;
+    padding-bottom: 120px;
 }
 #newsletter-area .top-area{
     margin-bottom: 50px;
@@ -230,3 +230,25 @@ body {
 }
 
 /* ### Newsletter Area Ends ### */
+
+
+/*============================
+* --- Footer Area Start ---
+=============================*/
+
+footer{
+    background-color: #0B0D17;;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-area{
+    text-align: center;
+}
+.footer-area p{
+    color: #ffffff;
+}
+
+/* ### Footer Area Ends ### */
