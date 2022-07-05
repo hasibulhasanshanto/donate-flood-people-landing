@@ -17,6 +17,7 @@ body {
     padding: 18px 30px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 /*============================
 * --- Hero Section Start ---
@@ -32,8 +33,7 @@ body {
     background-image: url('./../images/donation2.jpg'), linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.75));
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 0;
-    background-attachment: fixed;
+    background-position: 0 0; 
     background-blend-mode: overlay;
 }
 
@@ -135,6 +135,48 @@ body {
 * --- Donate Plan Start ---
 =============================*/
 #donate-plan {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.plan-box-area{ 
+    margin: 50px 100px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.single-plan-box{
+    width: 33.33%;
+    padding: 40px 15px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.single-plan-box.cyan-box{
+    background: rgba(79, 157, 166, 0.1);
+}
+.single-plan-box.pink-box{
+    background: rgba(255, 89, 89, 0.1);
+}
+.single-plan-box.yellow-box{
+    background: #FFF4D6;
+}
+
+.single-plan-box img{ 
+    margin-bottom: 30px;
+}
+.single-plan-box h4{
+    color: #121212;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.single-plan-box p{
+    color: #121212;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: justify;
 }
 
 /* ### Donate Plan Ends ### */
@@ -151,6 +193,40 @@ body {
 * --- Newsletter Area Start ---
 =============================*/
 #newsletter-area {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+#newsletter-area .top-area{
+    margin-bottom: 50px;
+}
+.newletter-box{
+    background: #FFF4D6;
+    max-width: 700px; 
+    margin: 0 auto;
+    padding: 100px;
+}
+.subscribe-area{
+    display: flex;
+    justify-content: center;
+}
+
+#email{ 
+    background-color: #D9D9D9;
+    padding: 18px 30px;
+    border: none; 
+}
+#email:focus,
+#email:focus-visible,
+#email:active{
+    border: none;
+    outline: none;
+}
+.btn-subscribe{
+    color: #ffffff;
+    background-color: #FF5959;
+    padding: 18px 30px;
+    border: none; 
+    cursor: pointer;
 }
 
 /* ### Newsletter Area Ends ### */
