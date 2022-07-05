@@ -110,13 +110,14 @@ body {
 }
 
 .other-amout-area{
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50px; 
 }
 .other-amout-area button{
     margin-top: 20px;
+    
 }
 #other-amount{
     border: none;
