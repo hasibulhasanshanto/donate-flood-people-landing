@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*============================
+* --- Hero Section Start ---
+=============================*/
+
+#hero-section {
+    padding: 5%;
+}
+
+/* ### Hero Section Ends ### */
+
+/*============================
+* --- Donate Today Start ---
+=============================*/
+#donate-today {
+    padding: 5%;
+}
+
+/* ### Donate Today Ends ### */
+
+/*============================
+* --- Donate Plan Start ---
+=============================*/
+#donate-plan {
+    padding: 5%;
+}
+
+/* ### Donate Plan Ends ### */
+
+/*============================
+* --- Showcase Area Start ---
+=============================*/
+#showcase-area {
+    padding: 5%;
+}
+
+/* ### Showcase Area Ends ### */
+
+/*============================
+* --- Newsletter Area Start ---
+=============================*/
+#newsletter-area {
+    padding: 5%;
+}
+
+/* ### Newsletter Area Ends ### */
