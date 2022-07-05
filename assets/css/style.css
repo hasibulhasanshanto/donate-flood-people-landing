@@ -13,7 +13,7 @@ body {
 
 .btn-primary {
     color: #ffffff;
-    background-color: red;
+    background-color: #FF5959;
     padding: 18px 30px;
     border: none;
     border-radius: 6px;
@@ -24,28 +24,28 @@ body {
 
 #hero-section {
     padding: 20% 5%;
-        max-width: 100%;
-        height: 10vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: url('./../images/donation2.jpg'), linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.75));
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 0 0;
-        background-attachment: fixed;
-        background-blend-mode: overlay;
-    }
-    
-    .hero-center {
-        max-width: 800px;
-        text-align: center;
-    }
-    
-    .hero-center h2 {
-        color: #ffffff;
-        font-size: 60px;
-        font-weight: 900;
+    max-width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../images/donation2.jpg'), linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.75));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+.hero-center {
+    max-width: 700px;
+    text-align: center;
+}
+
+.hero-center h2 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 900;
 }
 
 .hero-paragraph {
@@ -61,8 +61,74 @@ body {
 * --- Donate Today Start ---
 =============================*/
 #donate-today {
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 
+.top-area {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+.top-area h2 {
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.top-area p {
+    color: #707070;
+    line-height: 24px;
+
+}
+
+.box-area {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.single-box{
+    padding: 70px;
+    border: 1px solid #707070;
+    margin: 5px 15px;
+    background-color: #FAFAFA;
+    border-radius: 6px;
+}
+.single-box h4{
+    color: #707070;
+    font-size: 28px;
+    font-weight: 700;
+}
+.box-active{
+    background-color: #FFEEEE;
+    border: 2px solid red;
+}
+.box-active h4{
+    color: #FF5959;
+}
+
+.other-amout-area{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.other-amout-area button{
+    margin-top: 20px;
+}
+#other-amount{
+    border: none;
+    font-size: 20px;
+    margin-left: 60px;
+}
+#other-amount:focus,
+#other-amount:focus-visible,
+#other-amount:active{
+    border: none;
+    outline: none;
+}
 /* ### Donate Today Ends ### */
 
 /*============================
