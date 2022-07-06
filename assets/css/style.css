@@ -18,6 +18,11 @@ body {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-primary:hover {
+    box-shadow: 0px 2px 5px #888888;
 }
 /*============================
 * --- Hero Section Start ---
@@ -95,6 +100,14 @@ body {
     margin: 5px 15px;
     background-color: #FAFAFA;
     border-radius: 6px;
+    cursor: pointer;
+}
+.single-box:hover{
+    background-color: #FFEEEE;
+    border: 2px solid red;
+}
+.single-box:hover h4{
+    color: #FF5959;
 }
 .single-box h4{
     color: #707070;
@@ -153,7 +166,9 @@ body {
     border: 1px solid black;
     border-radius: 6px;
 }
-
+.single-plan-box:hover {
+    box-shadow: 0px 2px 15px 2px #888888;
+}
 .single-plan-box.cyan-box{
     background: rgba(79, 157, 166, 0.1);
 }
@@ -186,9 +201,81 @@ body {
 * --- Showcase Area Start ---
 =============================*/
 #showcase-area {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.first-shocase,
+.second-shocase{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.shocase-content-left{
+    width: 60%;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-bottom: 70px;
+}
+.shocase-content-right{
+    width: 60%;
+    padding-left: 10px;
+    padding-top: 50px;
+    margin-bottom: 70px;
+}
+.shocase-content-left h2,
+.shocase-content-right h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #121212;
+}
+.shocase-content-left p,
+.shocase-content-right p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    line-height: 24px;
+    padding: 30px 0;
+    text-align: justify;
+}
+.img-content{
+    width: 50%;
+}
+.img-content img{
+    height: 400px;
+    width: 450px;
 }
 
 /* ### Showcase Area Ends ### */
+
+/*============================
+* --- Top News Area Start ---
+=============================*/
+#top-news{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    text-align: center; 
+} 
+#top-news .top-area{
+    margin-bottom: 30px;
+}
+#top-news button{
+    margin-top: 30px;
+}
+.video-news{
+    display: flex; 
+    justify-content: center;
+    max-width: 100%; 
+    align-items: center;
+}
+.single-youtube-video{ 
+    width: 30.33%;
+    padding: 15px;
+}
+/* ### Top News Area Ends ### */
+
 
 /*============================
 * --- Newsletter Area Start ---
